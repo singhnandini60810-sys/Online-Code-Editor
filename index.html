@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Online Code Editor</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<h1>Online Code Editor</h1>
+
+
+<div class="editor">
+
+
+<div class="box">
+
+<h2>HTML</h2>
+
+<textarea id="htmlCode">
+
+<h1>Hello World</h1>
+<p>Edit me!</p>
+
+</textarea>
+
+</div>
+
+
+
+<div class="box">
+
+<h2>CSS</h2>
+
+<textarea id="cssCode">
+
+body{
+font-family:Arial;
+text-align:center;
+}
+
+h1{
+color:blue;
+}
+
+</textarea>
+
+</div>
+
+
+
+
+<div class="box">
+
+<h2>JavaScript</h2>
+
+<textarea id="jsCode">
+
+console.log("Hello");
+
+</textarea>
+
+</div>
+
+
+</div>
+
+
+
+<div class="buttons">
+
+<button onclick="runCode()">
+Run
+</button>
+
+
+<button onclick="clearCode()">
+Clear
+</button>
+
+
+<button onclick="downloadCode()">
+Download
+</button>
+
+
+</div>
+
+
+
+
+<h2>Preview</h2>
+
+
+<iframe id="preview"></iframe>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
